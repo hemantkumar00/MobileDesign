@@ -10,6 +10,7 @@ Before you begin, ensure that you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org) (version 14 or later)
 - [npm](https://www.npmjs.com/) (Node Package Manager, usually installed with Node.js)
+- Complete Additional requirement also. 
 
 ## Installation
 
@@ -26,6 +27,7 @@ Alternatively, you can download the repository as a ZIP file and extract it to a
 3. Install the project dependencies using npm:
    ```bash
    npm install
+     
 
 ## Running the App
 
@@ -47,6 +49,11 @@ Once you have completed the installation and configuration steps, you can start 
 3. Sellect `Use iPhone X` and write `http://localhost:3000` this url. 
 4. Then one iPhone design will open inside VS Code 
 5. Now you can use the Application.
+
+## Images
+<img src="first.png" alt="Alt Text" width="225" height="487"> <img src="second.png" alt="Alt Text" width="225" height="487"> <img src="third.png" alt="Alt Text" width="225" height="487">
+<img src="fourth.png" alt="Alt Text" width="225" height="487">
+
 
 
 ## Conclusion
