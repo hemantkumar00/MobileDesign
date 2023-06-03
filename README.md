@@ -15,7 +15,7 @@ Before you begin, ensure that you have the following installed on your machine:
 
 1. Clone the repository to your local machine using Git:
    ```bash
-   git clone https://github.com/hemantkumar00/Dashboard-code.git
+   git clone https://github.com/hemantkumar00/MobileDesign.git
    
 Alternatively, you can download the repository as a ZIP file and extract it to a local directory.
 
