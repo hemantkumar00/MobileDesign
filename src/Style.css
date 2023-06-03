@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: white;
+  /* overflow: hidden; */
+}
+
+.home-product {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  text-align: center;
+  margin: 10px;
+  /* border: 2px solid black; */
+}
+
+.home-product-image {
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+  width: 130px;
+  height: auto;
+}
+
+.home-product-content-heading {
+  margin: 10px 0 10px 0;
+}
+.home-product-content-description {
+  color: #8c8c8c;
+}
+.home-product-image-container {
+  position: relative;
+}
+
+.home-product-heart-button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.home-banner {
+  position: relative;
+  margin: 10px;
+  width: 230px;
+  border-radius: 15px;
+}
+
+.home-banner-textArea {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.home-banner-image {
+  width: 230px;
+  border-radius: 15px;
+}
+
+.home-banner-code {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.home-viewAll {
+  color: #8c8c8c;
+}
+
+.home-banner-button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.home-banner-container {
+  margin: 10px 0;
+  display: flex;
+  overflow-x: scroll;
+}
+.home-banner-container::-webkit-scrollbar {
+  display: none;
+}
+
+.home-product-container {
+  display: flex;
+  margin-bottom: 60px;
+}
+.home-new-arival-area {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-header-top {
+  margin: 30px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-header-top-icon {
+  font-size: 35px;
+}
+
+.home-header-top-avatar {
+  width: 60px;
+}
+
+.home-header-mid {
+  margin: 10px;
+}
+
+.home-header-mid-subheading {
+  color: #8c8c8c;
+}
+
+.home-header-input {
+  /* padding: 10px; */
+  background-color: #e4e2e2;
+
+  /* border: 1px solid #555; */
+  border: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-image: url("./HomePage/search-icon-png-9964.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 40px;
+}
+
+.home-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-container {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  padding: 15px 0px;
+  border-top-left-radius: 20px;
+  align-items: center;
+  border-top-right-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-icon1 {
+  font-size: 30px;
+}
+
+.footer-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #eee;
+  padding-right: 10px;
+}
+
+.product-image {
+  width: 100vw;
+}
+
+.description-container {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 48vh;
+  padding: 20px;
+  min-width: 88vw;
+}
+
+.product-page-subheading {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin: 5px 0;
+}
+
+.product-review-count {
+  font-size: 12px;
+}
+.product-review-count1 {
+  margin: 0 0 0 10px;
+}
+
+.product-description-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 15px 0;
+}
+
+.product-available-text {
+  font-size: 12px;
+}
+
+.product-counter {
+  text-align: end;
+}
+
+.product-counter-button {
+  /* border: 2px solid black; */
+  text-align: center;
+  background-color: #eee;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  /* border: 20px; */
+}
+
+.product-counter-btn {
+  border: none;
+  padding: 5px 7px;
+  background-color: #eee;
+}
+
+.product-page-description {
+  margin-top: 20px;
+}
+
+.product-page-desc {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.product-total {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.product-buy-button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.procuct-buy-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  padding: 15px;
+  position: relative;
+  padding-left: 30px;
+  font-size: 14px;
+}
+label input {
+  display: none;
+}
+label span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  line-height: 1;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 10pt;
+  left: 0;
+  top: 50%;
+  margin-top: -10.5px;
+}
+input:checked + span {
+  background-color: black;
+  color: white;
+}
+
+.product-size-button {
+  display: flex;
+}
+
+.product-top-left {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 25px;
+}
+
+.product-top-right {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 25px;
+}
+.product-bottom-right {
+  position: absolute;
+  top: 260px;
+  right: 20px;
+  font-size: 25px;
+}
+
+.product-page-container {
+  position: relative;
+}
+
+.hello {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px 10px;
+  background-color: #fdf3f9;
+}
+
+.label {
+  text-align: start;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.card-3rdline {
+  display: flex;
+}
+
+.input {
+  margin: -10px 10px -10px 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#card-button {
+  background-color: #bf477f;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+}
+
+.input-line3 {
+  width: 95px;
+}
+
+.input-line12 {
+  width: 230px;
+}
+
+.card-first-line {
+  position: relative;
+}
+
+.card-icon {
+  position: absolute;
+  right: 20px;
+}
+
+.payment-success {
+  margin: 10px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fdf3f9;
+}
+
+.payemnt-success-span {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.payment-success-icon {
+  margin: 0 auto 10px auto;
+}
